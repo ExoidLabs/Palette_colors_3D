@@ -165,9 +165,9 @@ export default function App() {
       </Canvas>
       <Loader />
       <Footer
-        date="1. February"
-        year="2021"
-        link1={<a onClick={handleClick}>Share your composition</a>}
+        date="29 Juin"
+        year="2022"
+        link1={<a onClick={handleClick}>Partager vos créations</a>}
         link2={isCopied && <div>Link copied in clipboard!</div>}
       />
     </div>
